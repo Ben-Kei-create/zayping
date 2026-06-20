@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0001000000000000000001 /* ZaypingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001000000000000000001; };
+		AA0002000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0002000000000000000002; };
+		AA0003000000000000000003 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0003000000000000000003; };
+		AA0004000000000000000004 /* GamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0004000000000000000004; };
+		AA0005000000000000000005 /* RoundResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0005000000000000000005; };
+		AA0006000000000000000006 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0006000000000000000006; };
+		AA0007000000000000000007 /* TriviaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0007000000000000000007; };
+		AA0008000000000000000008 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0008000000000000000008; };
+		AA0009000000000000000009 /* TriviaBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0009000000000000000009; };
+		AA0010000000000000000010 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0010000000000000000010; };
+		AA0011000000000000000011 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0011000000000000000011; };
+		AA0012000000000000000012 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0012000000000000000012; };
+		AA0013000000000000000013 /* StreakIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0013000000000000000013; };
+		AA0014000000000000000014 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0014000000000000000014; };
+		AA0015000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0015000000000000000015; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB0001000000000000000001 /* ZaypingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaypingApp.swift; sourceTree = "<group>"; };
+		AB0002000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB0003000000000000000003 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AB0004000000000000000004 /* GamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayView.swift; sourceTree = "<group>"; };
+		AB0005000000000000000005 /* RoundResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundResultView.swift; sourceTree = "<group>"; };
+		AB0006000000000000000006 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		AB0007000000000000000007 /* TriviaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaItem.swift; sourceTree = "<group>"; };
+		AB0008000000000000000008 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		AB0009000000000000000009 /* TriviaBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBank.swift; sourceTree = "<group>"; };
+		AB0010000000000000000010 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		AB0011000000000000000011 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		AB0012000000000000000012 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
+		AB0013000000000000000013 /* StreakIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakIndicator.swift; sourceTree = "<group>"; };
+		AB0014000000000000000014 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		AB0015000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB0016000000000000000016 /* Zayping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zayping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0001000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0001000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AD0002000000000000000002 /* Zayping */,
+				AD0009000000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0002000000000000000002 /* Zayping */ = {
+			isa = PBXGroup;
+			children = (
+				AB0001000000000000000001 /* ZaypingApp.swift */,
+				AB0015000000000000000015 /* Assets.xcassets */,
+				AD0003000000000000000003 /* Models */,
+				AD0004000000000000000004 /* Views */,
+				AD0005000000000000000005 /* Components */,
+				AD0006000000000000000006 /* Data */,
+				AD0007000000000000000007 /* Extensions */,
+			);
+			path = Zayping;
+			sourceTree = "<group>";
+		};
+		AD0003000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB0007000000000000000007 /* TriviaItem.swift */,
+				AB0008000000000000000008 /* GameManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD0004000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB0002000000000000000002 /* ContentView.swift */,
+				AB0003000000000000000003 /* HomeView.swift */,
+				AB0004000000000000000004 /* GamePlayView.swift */,
+				AB0005000000000000000005 /* RoundResultView.swift */,
+				AB0006000000000000000006 /* GameOverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD0005000000000000000005 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AB0011000000000000000011 /* CharacterCell.swift */,
+				AB0012000000000000000012 /* AnimatedBackground.swift */,
+				AB0013000000000000000013 /* StreakIndicator.swift */,
+				AB0014000000000000000014 /* ProgressBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD0006000000000000000006 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AB0009000000000000000009 /* TriviaBank.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD0007000000000000000007 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB0010000000000000000010 /* Color+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD0009000000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0016000000000000000016 /* Zayping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0001000000000000000001 /* Zayping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0003000000000000000003 /* Build configuration list for PBXNativeTarget "Zayping" */;
+			buildPhases = (
+				AE0002000000000000000002 /* Sources */,
+				AC0001000000000000000001 /* Frameworks */,
+				AE0003000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zayping;
+			productName = Zayping;
+			productReference = AB0016000000000000000016 /* Zayping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0004000000000000000004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AE0001000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AF0001000000000000000001 /* Build configuration list for PBXProject "Zayping" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				Base,
+			);
+			mainGroup = AD0001000000000000000001;
+			productRefGroup = AD0009000000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0001000000000000000001 /* Zayping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0003000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0015000000000000000015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0002000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0001000000000000000001 /* ZaypingApp.swift in Sources */,
+				AA0002000000000000000002 /* ContentView.swift in Sources */,
+				AA0003000000000000000003 /* HomeView.swift in Sources */,
+				AA0004000000000000000004 /* GamePlayView.swift in Sources */,
+				AA0005000000000000000005 /* RoundResultView.swift in Sources */,
+				AA0006000000000000000006 /* GameOverView.swift in Sources */,
+				AA0007000000000000000007 /* TriviaItem.swift in Sources */,
+				AA0008000000000000000008 /* GameManager.swift in Sources */,
+				AA0009000000000000000009 /* TriviaBank.swift in Sources */,
+				AA0010000000000000000010 /* Color+Theme.swift in Sources */,
+				AA0011000000000000000011 /* CharacterCell.swift in Sources */,
+				AA0012000000000000000012 /* AnimatedBackground.swift in Sources */,
+				AA0013000000000000000013 /* StreakIndicator.swift in Sources */,
+				AA0014000000000000000014 /* ProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF0004000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF0005000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF0006000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.word-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zayping.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF0007000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.word-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zayping.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0001000000000000000001 /* Build configuration list for PBXProject "Zayping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0004000000000000000004 /* Debug */,
+				AF0005000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0003000000000000000003 /* Build configuration list for PBXNativeTarget "Zayping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0006000000000000000006 /* Debug */,
+				AF0007000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0004000000000000000004 /* Project object */;
+}
