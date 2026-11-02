@@ -21,6 +21,7 @@
 		AA0012000000000000000012 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0012000000000000000012; };
 		AA0013000000000000000013 /* StreakIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0013000000000000000013; };
 		AA0014000000000000000014 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0014000000000000000014; };
+		AA0018000000000000000018 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AB0018000000000000000018; };
 		AA0015000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0015000000000000000015; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		AB0012000000000000000012 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
 		AB0013000000000000000013 /* StreakIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakIndicator.swift; sourceTree = "<group>"; };
 		AB0014000000000000000014 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		AB0018000000000000000018 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AB0017000000000000000017 /* Zayping.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zayping.entitlements; sourceTree = "<group>"; };
 		AB0015000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0016000000000000000016 /* Zayping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zayping.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				AB0001000000000000000001 /* ZaypingApp.swift */,
 				AB0015000000000000000015 /* Assets.xcassets */,
 				AB0017000000000000000017 /* Zayping.entitlements */,
+				AB0018000000000000000018 /* PrivacyInfo.xcprivacy */,
 				AD0003000000000000000003 /* Models */,
 				AD0004000000000000000004 /* Views */,
 				AD0005000000000000000005 /* Components */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0015000000000000000015 /* Assets.xcassets in Resources */,
+				AA0018000000000000000018 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +355,15 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.word-games";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Zayping. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Fumiaki Mogi. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zayping.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.zayping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -377,14 +382,15 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.word-games";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Zayping. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Fumiaki Mogi. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zayping.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.zayping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
